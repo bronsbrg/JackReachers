@@ -1,14 +1,19 @@
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
+[image1]: https://raw.githubusercontent.com/bronsbrg/JackReachers/main/training_early.gif "Training Early"
+[image2]: https://raw.githubusercontent.com/bronsbrg/JackReachers/main/training_late.gif "Training Late"
 
 # Project 2: Continuous Control
 
 ### Introduction
 
-This project requires the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
+This project requires the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment, which trains 20 arms to follow goal locations.
 
-![Trained Agent][image1]
+Early in the training process, the arms looks like this:
+![Training Early][image1]
+
+When the training process is nearly complete, they look like this:
+![Training Late][image2]
 
 In this environment, double-jointed arms can move to target locations. A reward of +0.1 is provided for each step that the agents' hands are in the goal locations. Thus, the goal of the agents is to maintain their positions at the target locations for as many time steps as possible.
 
